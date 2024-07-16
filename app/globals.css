@@ -31,6 +31,10 @@ body{
   padding: 6px 5px 6px 3px;
 }
 
+.All-blog{
+  background-color: var(--input-box-bg-color);
+}
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

@@ -1,4 +1,6 @@
 import React from 'react'
+// import CreateBlog from './clientcomponents/CreateBlog'
+import ReturntoHome from './clientcomponents/ReturntoHome'
 
 export default function Navbar() {
 
@@ -14,9 +16,9 @@ export default function Navbar() {
      {/* for list items  */}
         <ul className='flex gap-4 text-sm items-center'>
           <li className='cursor-pointer'>toggle</li>
-          <li className='cursor-pointer'>All</li>
+          <li className='cursor-pointer'><ReturntoHome /></li>
           <li className='cursor-pointer'>Blogs</li>
-          <li className='cursor-pointer' >createBlog</li>
+          {/* <li className='cursor-pointer'><CreateBlog /></li> */}
           <button className='btn pt-1 pb-1 pl-3 pr-3'>Login</button>
         </ul>
 
